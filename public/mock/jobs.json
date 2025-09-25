@@ -1,0 +1,445 @@
+[
+  {
+    "id": "job-001",
+    "title": "食品加工オペレーター",
+    "industry": "製造",
+    "category": "食品加工",
+    "description": "最新設備を備えた食品加工工場でのラインオペレーション業務を担当していただきます。",
+    "responsibilities": [
+      "ライン設備の運転と点検",
+      "品質検査および記録管理",
+      "衛生管理基準に沿った作業",
+      "改善提案とチームミーティングへの参加"
+    ],
+    "requirements": [
+      "食品関連業務での実務経験1年以上",
+      "衛生管理の知識",
+      "シフト勤務が可能な方",
+      "基本的な日本語でのコミュニケーション"
+    ],
+    "jlptLevel": "N3",
+    "location": {
+      "prefecture": "北海道",
+      "city": "札幌市"
+    },
+    "salary": {
+      "min": 220000,
+      "max": 260000,
+      "currency": "JPY",
+      "period": "monthly"
+    },
+    "benefits": [
+      "寮完備（個室）",
+      "交通費支給",
+      "社会保険完備"
+    ],
+    "employmentType": "full-time",
+    "isPublished": true,
+    "tags": ["食品", "シフト制", "寮あり"],
+    "company": {
+      "name": "北海道フードファクトリー株式会社",
+      "description": "地元食材を活用した食品加工メーカー。社員教育と衛生管理に力を入れています。",
+      "contactEmail": "hr@hokkaido-food.jp",
+      "website": "https://hokkaido-food.jp"
+    },
+    "createdAt": "2024-01-10T09:15:00.000Z",
+    "updatedAt": "2024-01-20T11:00:00.000Z"
+  },
+  {
+    "id": "job-002",
+    "title": "介護スタッフ（特別養護老人ホーム）",
+    "industry": "介護・福祉",
+    "category": "介護",
+    "description": "特別養護老人ホームにおける入居者様の日常生活支援業務を担当していただきます。",
+    "responsibilities": [
+      "食事・入浴・排泄等の介助",
+      "レクリエーション企画と運営",
+      "記録業務およびご家族への報告",
+      "医療スタッフとの連携"
+    ],
+    "requirements": [
+      "介護福祉士または介護職員初任者研修修了",
+      "夜勤対応が可能な方",
+      "チームワークを大切にできる方"
+    ],
+    "jlptLevel": "N2",
+    "location": {
+      "prefecture": "東京都",
+      "city": "板橋区"
+    },
+    "salary": {
+      "min": 240000,
+      "max": 300000,
+      "currency": "JPY",
+      "period": "monthly"
+    },
+    "benefits": [
+      "資格取得支援制度",
+      "住宅手当",
+      "退職金制度"
+    ],
+    "employmentType": "full-time",
+    "isPublished": true,
+    "tags": ["介護福祉士", "夜勤あり", "資格支援"],
+    "company": {
+      "name": "ケアリンク社会福祉法人",
+      "description": "地域密着型で複数施設を展開する社会福祉法人。多国籍スタッフが活躍中です。",
+      "contactEmail": "recruit@carelink.or.jp",
+      "website": "https://carelink.or.jp"
+    },
+    "createdAt": "2024-01-05T08:00:00.000Z",
+    "updatedAt": "2024-01-25T10:30:00.000Z"
+  },
+  {
+    "id": "job-003",
+    "title": "ホテルフロントスタッフ",
+    "industry": "観光・サービス",
+    "category": "ホテル",
+    "description": "インバウンド対応が中心のホテルで、フロント業務全般を担当します。",
+    "responsibilities": [
+      "チェックイン・チェックアウト対応",
+      "観光案内と予約手配",
+      "会計・売上管理",
+      "クレーム対応とレポート作成"
+    ],
+    "requirements": [
+      "接客経験2年以上",
+      "英語または中国語での日常会話",
+      "PC操作（Excel・Word）技能"
+    ],
+    "jlptLevel": "N2",
+    "location": {
+      "prefecture": "大阪府",
+      "city": "大阪市"
+    },
+    "salary": {
+      "min": 210000,
+      "max": 260000,
+      "currency": "JPY",
+      "period": "monthly"
+    },
+    "benefits": [
+      "制服貸与",
+      "シフト希望考慮",
+      "社員食堂利用可"
+    ],
+    "employmentType": "full-time",
+    "isPublished": true,
+    "tags": ["接客", "語学力", "ホテル"],
+    "company": {
+      "name": "関西ホスピタリティマネジメント株式会社",
+      "description": "大阪市内で複数のホテルを運営する企業。海外スタッフのサポート体制が充実。",
+      "contactEmail": "hr@khm.co.jp"
+    },
+    "createdAt": "2024-01-12T12:00:00.000Z",
+    "updatedAt": "2024-01-18T09:45:00.000Z"
+  },
+  {
+    "id": "job-004",
+    "title": "農業スタッフ（施設園芸）",
+    "industry": "農業",
+    "category": "施設園芸",
+    "description": "最新のICTを活用した温室での高品質野菜の生産と収穫作業を行います。",
+    "responsibilities": [
+      "作物の栽培管理と収穫",
+      "ハウス内環境のモニタリング",
+      "出荷準備および梱包作業",
+      "農機具の簡易メンテナンス"
+    ],
+    "requirements": [
+      "農業分野での経験1年以上",
+      "屋内外での作業に対応できる体力",
+      "普通自動車免許（AT可）"
+    ],
+    "jlptLevel": "N4",
+    "location": {
+      "prefecture": "群馬県",
+      "city": "前橋市"
+    },
+    "salary": {
+      "min": 1100,
+      "max": 1300,
+      "currency": "JPY",
+      "period": "hourly"
+    },
+    "benefits": [
+      "社宅あり",
+      "昼食補助",
+      "交通費支給"
+    ],
+    "employmentType": "contract",
+    "isPublished": true,
+    "tags": ["農業", "ハウス栽培", "社宅あり"],
+    "company": {
+      "name": "アグリテック群馬株式会社",
+      "description": "ICT農業を推進するスタートアップ企業。丁寧な研修制度が特徴。",
+      "contactEmail": "recruit@agritech-gunma.jp"
+    },
+    "createdAt": "2024-01-02T06:30:00.000Z",
+    "updatedAt": "2024-01-22T14:20:00.000Z"
+  },
+  {
+    "id": "job-005",
+    "title": "建設技能工（内装仕上げ）",
+    "industry": "建設",
+    "category": "内装仕上げ",
+    "description": "商業施設の内装仕上げ工事における仕上げ作業全般を担当します。",
+    "responsibilities": [
+      "クロス貼り・床仕上げ作業",
+      "材料の搬入と管理",
+      "安全管理ミーティングへの参加",
+      "施工計画に基づく作業進行"
+    ],
+    "requirements": [
+      "内装仕上げ経験2年以上",
+      "技能検定2級以上歓迎",
+      "高所作業に抵抗がない方"
+    ],
+    "jlptLevel": "N3",
+    "location": {
+      "prefecture": "愛知県",
+      "city": "名古屋市"
+    },
+    "salary": {
+      "min": 250000,
+      "max": 320000,
+      "currency": "JPY",
+      "period": "monthly"
+    },
+    "benefits": [
+      "工具貸与",
+      "各種手当支給",
+      "資格取得支援"
+    ],
+    "employmentType": "full-time",
+    "isPublished": true,
+    "tags": ["建設", "技能工", "資格支援"],
+    "company": {
+      "name": "中部インテリアソリューションズ株式会社",
+      "description": "大規模商業施設の内装工事を手がける専門企業。多国籍チームが活躍中。",
+      "contactEmail": "saiyo@cis.co.jp"
+    },
+    "createdAt": "2024-01-08T07:45:00.000Z",
+    "updatedAt": "2024-01-21T13:15:00.000Z"
+  },
+  {
+    "id": "job-006",
+    "title": "溶接技能工（半自動）",
+    "industry": "製造",
+    "category": "金属加工",
+    "description": "重機部品の製造ラインにおける半自動溶接業務を担当します。",
+    "responsibilities": [
+      "図面を基にした溶接作業",
+      "完成品の検査とバリ取り",
+      "設備メンテナンスへの協力",
+      "安全衛生ルールの遵守"
+    ],
+    "requirements": [
+      "半自動溶接の実務経験",
+      "玉掛・クレーン資格者歓迎",
+      "夜勤を含む交替勤務が可能な方"
+    ],
+    "jlptLevel": "N3",
+    "location": {
+      "prefecture": "宮城県",
+      "city": "仙台市"
+    },
+    "salary": {
+      "min": 240000,
+      "max": 310000,
+      "currency": "JPY",
+      "period": "monthly"
+    },
+    "benefits": [
+      "技能手当",
+      "社宅補助",
+      "年2回賞与"
+    ],
+    "employmentType": "full-time",
+    "isPublished": true,
+    "tags": ["製造", "溶接", "交替勤務"],
+    "company": {
+      "name": "東北メタルワークス株式会社",
+      "description": "建設機械メーカー向け部品を製造する企業。品質管理体制が整っています。",
+      "contactEmail": "recruit@tmw.co.jp"
+    },
+    "createdAt": "2024-01-03T09:00:00.000Z",
+    "updatedAt": "2024-01-19T16:40:00.000Z"
+  },
+  {
+    "id": "job-007",
+    "title": "造船技能工（艤装）",
+    "industry": "造船",
+    "category": "艤装",
+    "description": "大型船舶の艤装作業を担当し、配管・電装・内装の取り付けを行います。",
+    "responsibilities": [
+      "艤装部品の取り付け",
+      "図面確認と作業記録",
+      "安全パトロールへの参加",
+      "品質検査への立ち会い"
+    ],
+    "requirements": [
+      "造船または建設での実務経験",
+      "チーム作業が得意な方",
+      "高所での作業が可能な方"
+    ],
+    "jlptLevel": "N3",
+    "location": {
+      "prefecture": "広島県",
+      "city": "呉市"
+    },
+    "salary": {
+      "min": 260000,
+      "max": 330000,
+      "currency": "JPY",
+      "period": "monthly"
+    },
+    "benefits": [
+      "寮・社宅あり",
+      "作業服支給",
+      "赴任旅費支給"
+    ],
+    "employmentType": "full-time",
+    "isPublished": true,
+    "tags": ["造船", "高所作業", "寮あり"],
+    "company": {
+      "name": "瀬戸内マリンエンジニアリング株式会社",
+      "description": "造船所向け艤装工事を専門とする企業。安全教育に力を入れています。",
+      "contactEmail": "saiyo@setouchi-marine.co.jp"
+    },
+    "createdAt": "2024-01-09T10:20:00.000Z",
+    "updatedAt": "2024-01-23T08:55:00.000Z"
+  },
+  {
+    "id": "job-008",
+    "title": "宿泊施設清掃リーダー",
+    "industry": "観光・サービス",
+    "category": "清掃管理",
+    "description": "観光地の大型宿泊施設における清掃チームのリーダーとして勤務します。",
+    "responsibilities": [
+      "清掃スタッフのシフト管理",
+      "客室・共用部の品質チェック",
+      "新人スタッフのトレーニング",
+      "資材発注と在庫管理"
+    ],
+    "requirements": [
+      "清掃業務の経験3年以上",
+      "リーダー経験がある方歓迎",
+      "基本的なPC操作スキル"
+    ],
+    "jlptLevel": "N3",
+    "location": {
+      "prefecture": "京都府",
+      "city": "京都市"
+    },
+    "salary": {
+      "min": 200000,
+      "max": 250000,
+      "currency": "JPY",
+      "period": "monthly"
+    },
+    "benefits": [
+      "交通費実費支給",
+      "制服貸与",
+      "有給休暇制度"
+    ],
+    "employmentType": "full-time",
+    "isPublished": true,
+    "tags": ["清掃", "リーダー", "シフト管理"],
+    "company": {
+      "name": "京宿マネジメント株式会社",
+      "description": "京都市内の宿泊施設運営・管理事業を展開。多様性を重視した職場環境。",
+      "contactEmail": "recruit@kyoyado.co.jp"
+    },
+    "createdAt": "2024-01-11T07:25:00.000Z",
+    "updatedAt": "2024-01-24T09:10:00.000Z"
+  },
+  {
+    "id": "job-009",
+    "title": "ITサポートエンジニア（社内ヘルプデスク）",
+    "industry": "IT・通信",
+    "category": "ITサポート",
+    "description": "社内のPC・ネットワーク環境のサポートとアカウント管理を行います。",
+    "responsibilities": [
+      "問い合わせ対応（チケット制）",
+      "PCキッティングと資産管理",
+      "SaaSアカウントの運用管理",
+      "マニュアル作成と更新"
+    ],
+    "requirements": [
+      "ITサポート経験1年以上",
+      "基本情報処理技術者または同等の知識",
+      "ビジネスレベルの日本語・英語"
+    ],
+    "jlptLevel": "N1",
+    "location": {
+      "prefecture": "神奈川県",
+      "city": "横浜市"
+    },
+    "salary": {
+      "min": 280000,
+      "max": 350000,
+      "currency": "JPY",
+      "period": "monthly"
+    },
+    "benefits": [
+      "フレックスタイム制",
+      "リモートワーク制度",
+      "語学学習補助"
+    ],
+    "employmentType": "full-time",
+    "isPublished": true,
+    "tags": ["ITサポート", "英語", "リモート可"],
+    "company": {
+      "name": "グローバルリンクテクノロジーズ株式会社",
+      "description": "外資系企業の日本法人。多国籍メンバーが活躍するダイバーシティ企業。",
+      "contactEmail": "hr@globallink-tech.jp"
+    },
+    "createdAt": "2024-01-04T08:40:00.000Z",
+    "updatedAt": "2024-01-26T11:35:00.000Z"
+  },
+  {
+    "id": "job-010",
+    "title": "外食チェーン店舗マネージャー候補",
+    "industry": "外食",
+    "category": "店舗運営",
+    "description": "多店舗展開する外食チェーンで、店舗運営業務全般とチームマネジメントを担当します。",
+    "responsibilities": [
+      "店舗の売上・労務管理",
+      "スタッフ採用・教育",
+      "サービス品質向上施策の実行",
+      "在庫管理と食材発注"
+    ],
+    "requirements": [
+      "飲食店でのマネジメント経験",
+      "休日出勤・深夜勤務に柔軟に対応できる方",
+      "ホスピタリティ精神がある方"
+    ],
+    "jlptLevel": "N2",
+    "location": {
+      "prefecture": "福岡県",
+      "city": "福岡市"
+    },
+    "salary": {
+      "min": 300000,
+      "max": 380000,
+      "currency": "JPY",
+      "period": "monthly"
+    },
+    "benefits": [
+      "住宅手当",
+      "決算賞与",
+      "社員割引制度"
+    ],
+    "employmentType": "full-time",
+    "isPublished": true,
+    "tags": ["飲食", "マネジメント", "キャリアアップ"],
+    "company": {
+      "name": "九州ダイニングソリューションズ株式会社",
+      "description": "九州エリアで人気の外食ブランドを運営。キャリアパス制度が充実。",
+      "contactEmail": "recruit@kyushu-dining.jp"
+    },
+    "createdAt": "2024-01-07T05:50:00.000Z",
+    "updatedAt": "2024-01-27T10:05:00.000Z"
+  }
+]
