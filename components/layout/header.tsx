@@ -31,13 +31,13 @@ export const Header = () => {
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-background/80 backdrop-blur">
       <div className="container flex h-16 items-center justify-between">
-        <Link href={isAuthenticated ? '/client' : '/'} className="flex items-center gap-2 text-lg font-semibold text-foreground">
+        <Link href={(isAuthenticated ? '/client' : '/') as any} className="flex items-center gap-2 text-lg font-semibold text-foreground">
           <span className="inline-flex h-9 w-9 items-center justify-center rounded-md bg-primary text-primary-foreground">SW</span>
           <span>Skilled Worker Platform</span>
         </Link>
         <nav className="hidden flex-1 items-center justify-start gap-6 pl-8 md:flex">
           {displayLinks.map((link) => (
-            <Link key={link.href} href={link.href} className={renderLinkClass(link.href)}>
+            <Link key={link.href} href={link.href as any} className={renderLinkClass(link.href)}>
               {link.label}
             </Link>
           ))}
@@ -88,7 +88,7 @@ export const Header = () => {
             {displayLinks.map((link) => (
               <Link
                 key={link.href}
-                href={link.href}
+                href={link.href as any}
                 className={cn(
                   'rounded-md px-4 py-3 text-sm font-medium transition-colors',
                   pathname?.startsWith(link.href)
