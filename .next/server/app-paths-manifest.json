@@ -1,0 +1,8 @@
+{
+  "/client/page": "app/client/page.js",
+  "/jobs/page": "app/jobs/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/client/login/page": "app/client/login/page.js",
+  "/client/jobs/new/page": "app/client/jobs/new/page.js",
+  "/page": "app/page.js"
+}
