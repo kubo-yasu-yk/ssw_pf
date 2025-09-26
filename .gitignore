@@ -11,6 +11,9 @@ out/
 build/
 dist/
 
+# Static export files
+out/
+
 # Environment variables
 .env
 .env.local

@@ -10,8 +10,8 @@ import { useClientAuth } from '@/hooks/use-client-auth';
 const ClientLoginPage = () => {
   const router = useRouter();
   const { isAuthenticated, isLoading, login } = useClientAuth();
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('company@example.com');
+  const [password, setPassword] = useState('dummy-password');
   const [error, setError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -43,6 +43,10 @@ const ClientLoginPage = () => {
           <h1 className="text-2xl font-semibold text-foreground">企業向けログイン</h1>
           <p className="text-sm text-muted-foreground">
             ダミーアカウントでログインし、企業向けダッシュボードの機能をご確認いただけます。
+            <br />
+            <span className="text-xs text-muted-foreground">
+              ※ フォームには既にダミー値が入力されています
+            </span>
           </p>
         </div>
         <form className="space-y-5" onSubmit={handleSubmit}>
