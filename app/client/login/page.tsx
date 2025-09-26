@@ -36,7 +36,7 @@ const ClientLoginPage = () => {
   };
 
   return (
-    <div className="container flex min-h-[70vh] items-center justify-center py-16">
+    <div className="flex min-h-screen items-center justify-center py-16">
       <div className="w-full max-w-md space-y-8 rounded-xl border border-border bg-card p-8 shadow-sm">
         <div className="space-y-2 text-center">
           <p className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">Client Portal</p>
@@ -81,13 +81,20 @@ const ClientLoginPage = () => {
             ダッシュボードに進む
           </Button>
         </form>
-        <p className="text-center text-xs text-muted-foreground">
-          ログイン後は{' '}
-          <Link href="/client" className="text-primary hover:text-primary/80">
-            企業ダッシュボード
-          </Link>{' '}
-          へ自動的に遷移します。
-        </p>
+        <div className="space-y-3 text-center">
+          <p className="text-xs text-muted-foreground">
+            ログイン後は{' '}
+            <Link href="/client" className="text-primary hover:text-primary/80">
+              企業ダッシュボード
+            </Link>{' '}
+            へ自動的に遷移します。
+          </p>
+          <div className="border-t border-border pt-3">
+            <Link href="/" className="text-xs text-muted-foreground hover:text-foreground">
+              ← トップページに戻る
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );
