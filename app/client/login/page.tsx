@@ -78,7 +78,7 @@ const ClientLoginPage = () => {
           </div>
           {error && <p className="text-sm font-medium text-destructive">{error}</p>}
           <Button type="submit" className="w-full" loading={isSubmitting}>
-            ダッシュボードに進む
+            ログイン
           </Button>
         </form>
         <div className="space-y-3 text-center">
