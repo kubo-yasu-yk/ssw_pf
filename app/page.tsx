@@ -25,11 +25,6 @@ export default function HomePage() {
                   求人を見る
                 </Button>
               </Link>
-              <Link href="/client/login" className="w-full sm:w-auto">
-                <Button variant="outline" size="lg" className="w-full sm:w-auto">
-                  企業向けログイン
-                </Button>
-              </Link>
             </div>
           </div>
           <div className="relative overflow-hidden rounded-xl border border-border bg-card p-6 shadow-sm">
